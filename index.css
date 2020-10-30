@@ -8,20 +8,28 @@ body {
     margin-left: 2em;
     color:#003049;
 }
-section {
-    font-size:2em;
-    margin-left: 2em;
+
+p {
+    font-size:1.3em;
+    color: #003049;
 }
 h1 {
-    width:670px;
+    border-bottom: 1px solid black;
+    width: 272px;
 }
 h2 {
-    margin-left:3em;
-    width:600px;
+    margin-left:1.8rem;
+    border-bottom: 1px solid black;
+    width: 220px;
 }
-p {
-    text-align:center;
-    flex:inline;
-    font-size:1.3em;
-    color: #0E1C36;
+#info {
+    border: 3px solid #CC3F0C;
+    width:388px;
+    height:380px;
+    font-size:2.5rem;
 }
+ @media (max-width: 500px){
+     body{
+         margin:auto;
+     }
+ }
